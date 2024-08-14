@@ -1,26 +1,29 @@
-//  Data types in java script 
+"use strict"; // treat all JS code as newer version
 
-     let age= 10;
+// alert( 3 + 3) // we are using nodejs, not browser
 
-     let names= "Deep";
+console.log(3 
+    +
+     3) // code readability should be high
 
-     let isFalse=false; 
-
-     let homeAddress;
-
-    let temperatureRoo=null;
-
-     console.log(typeof age);
-     console.log(typeof names);
-     console.log(typeof isFalse);
-     console.log(typeof homeAddress);
-     console.log(typeof temperatureRoo);
+console.log("Hitesh")
 
 
+let name = "hitesh"
+let age = 18
+let isLoggedIn = false
+let state;
 
-    //  number
-    // bigint
-    // string
-    // boolean
-    // undefined 
-    // null
+// number => 2 to power 53
+// bigint
+// string => ""
+// boolean => true/false
+// null => standalone value
+// undefined => 
+// symbol => unique
+
+
+// object
+
+console.log(typeof undefined); // undefined
+console.log(typeof null); // object

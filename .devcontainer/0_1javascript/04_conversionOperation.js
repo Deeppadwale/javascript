@@ -1,45 +1,69 @@
-//   conversion Operation in java script
 
-//  so basicaliy we are converting a one or more data type into Number
+let score = "hitesh"
 
-//  if you want to chak it simply change the datatype of score
+//console.log(typeof score);
+//console.log(typeof(score));
 
-//   for Example  number;
-//                string;
-//                boolean;
-//                undefined;
-//                null;
-
-    
-    let score= (1,2,3)
-      
-    let changeValue=Number(score);
-
-    console.log(typeof score);
-
-    console.log(typeof changeValue);
-
-    console.log(changeValue);
+let valueInNumber = Number(score)
+//console.log(typeof valueInNumber);
+//console.log(valueInNumber);
 
 
-    // So basicaliy we are converting a one or more data type into String
+// "33" => 33
+// "33abc" => NaN
+//  true => 1; false => 0
 
-        let num=10
-    
-        let stringNum =String(num)
+let isLoggedIn = "hitesh"
 
-       console.log(num);
-       console.log(typeof num);
-       console.log(typeof stringNum);
-       console.log(stringNum) 
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+//  console.log(booleanIsLoggedIn);
 
+// 1 => true; 0 => false
+// "" => false
+// "hitesh" => true
 
-    // So basicaliy we are converting a one or more data type into boolean
+let someNumber = 33
 
+let stringNumber = String(someNumber)
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
-      let boll=null;
-      let bollNum=Boolean(boll);
-      console.log(boll);
-      console.log(typeof boll);
-      console.log(typeof bollNum);
-      console.log(bollNum);
+// *********************** Operations ***********************
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "hello"
+let str2 = " hitesh"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log( (3 + 4) * 5 % 3);
+
+// console.log(+true);
+// console.log(+"");
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
