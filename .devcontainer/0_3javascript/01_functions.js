@@ -75,7 +75,7 @@
 function addTable(n){
     for(let i = n;  i<=n*10; i+=n)
         console.log(i)
-// }
+ }
 // addTable(2)
 
 
